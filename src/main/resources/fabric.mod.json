@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shining",
+  "version": "${version}",
+
+  "name": "Shining Armor",
+  "description": "For the Kingdom!",
+  "authors": [
+    "Braunly"
+  ],
+  "contact": {
+    "homepage": "https://braunly.me/",
+    "sources": "https://github.com/YabkoMC/Shining-Armor"
+  },
+
+  "license": "lgpl",
+  "icon": "assets/shining/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.braunly.shining.ShiningArmor"
+    ]
+  },
+  "mixins": [
+    "shining.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
